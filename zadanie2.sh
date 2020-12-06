@@ -62,18 +62,18 @@ Usage: $0 [-h] [text file]...
 "
 while :
 do
-    case "$1" in
-      -h)
-        printf "%s" "$pomoc"
-        shift
-        ;;
-	    -)
-	      shift
-	      ;;
-      *)
-        break
-        ;;
-    esac
+  case "$1" in
+    -h)
+      printf "%s" "$pomoc"
+      shift
+      ;;
+    -)
+      shift
+      ;;
+    *)
+      break
+      ;;
+  esac
 done
 
 
