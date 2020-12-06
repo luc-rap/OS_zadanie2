@@ -57,7 +57,7 @@ Usage: $0 [-h] [text file]...
       [-h]: displays help
       [text file]: In given text files, find the longest line/lines.
       With no text file, or when text file is -, read standard input.
-      Output: filename, line number, length of the line and line's content
+      Output: filename, line number, length of the line and line's content.
 
 "
 while :
@@ -67,9 +67,9 @@ do
         printf "%s" "$pomoc"
         shift
         ;;
-	-)
-	  shift
-	  ;;
+	    -)
+	      shift
+	      ;;
       *)
         break
         ;;
